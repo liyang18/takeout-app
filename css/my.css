@@ -1,0 +1,242 @@
+/*
+* @Author: dell
+* @Date:   2018-04-18 08:34:37
+* @Last Modified by:   dell
+* @Last Modified time: 2018-04-18 10:58:32
+*/
+@import url('base.css');
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+body{
+	height: 920px;
+	background: #f5f5f5; 
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 632677 */
+  src: url('http://at.alicdn.com/t/font_632677_oyc0ihptwc23xr.eot');
+  src: url('http://at.alicdn.com/t/font_632677_oyc0ihptwc23xr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_632677_oyc0ihptwc23xr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_632677_oyc0ihptwc23xr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_632677_oyc0ihptwc23xr.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+}
+header{
+	width: 100%;
+	height: 4rem;
+	background: #5BFF;
+}
+.t-top{
+	width: 100%;
+	height: 1rem;
+	padding: 0.26rem 0.24rem;
+}
+.t-top .wode{
+	width: 60%;
+	float: left;
+	font-size: 0.4rem;
+	color: #FFFFFF;
+}
+.i-box{
+	float: right;
+	padding-left: 1.5rem;
+
+}
+.t-top i{
+	font-size: 0.5rem;
+	color: #ffffff;
+	margin-left: 0.1rem;
+}
+.t-bottom{
+	width: 100%;
+	height: 3rem;
+}
+.t-bottom-l{
+	/* width: 40%; */
+	height: auto;
+	padding: 0.5rem 0 0.5rem 0.5rem;
+	float: left;
+	margin-right: 0.2rem;
+}
+.t-bottom-l a{
+	display: block;
+	width: 1.5rem;
+}
+.t-bottom-l a img{
+	display: block;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 50%;
+}
+.t-bottom-c{
+	width: 40%;
+	height: auto;
+	float: left;
+	padding: 0.8rem 0;
+}
+.t-bottom-c .name1{
+	display: block;
+	width: 100%;
+	font-size: 0.35rem;
+	color: white;
+	margin-left: 0.1rem;
+}
+.t-bottom-c .phone{
+	width: 2rem;
+	height: 0.5rem;
+	font-size: 0.3rem;
+	color: white;
+}
+.t-bottom-c .phone i{
+	font-size: 0.5rem;
+}
+.t-bottom-r{
+	width: 30%;
+	height: auto;
+	float: right;
+}
+.t-bottom-r .jiantou{
+	display: block;
+	width: 100%;
+	padding: 0.9rem 0 0.8rem 1.5rem;
+}
+.t-bottom-r .jiantou i{
+	display: block;
+	font-size: 0.5rem;
+	color: white;
+}
+/* 头部结束 */
+.fenlei{
+	width: 100%;
+	height: auto;
+	background: white;
+	border-bottom: 0.01rem solid #F2F2F2;
+}
+.fenlei ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.fenlei ul li{
+	width: 33.33333% ;
+	border-right: 0.01rem solid #F2F2F2;
+}
+.fenlei ul li a{
+	display: block;
+	width: 100%;
+	padding: 0.3rem;
+}
+.fenlei ul li span{
+	font-size: 0.4rem;
+	color: #5BDFFF;
+	text-align: center;
+	margin-left: 0.4rem;
+}
+.fenlei ul li p{
+	font-size: 0.3rem;
+	color: #000;
+	margin-left: 0.4rem;
+}
+/* 分类结束 */
+.tup-{
+	width: 100%;
+	border: 0.1rem solid #F2F2F2;
+}
+.tup- img{
+	width: 100%;
+}
+/* 列表开始 */
+.liebiao{
+	width: 100%;
+}
+.liebiao ul{
+	width: 100%;
+}
+.liebiao ul li{
+	width: 100%;
+	background: white;
+	border: 0.01rem solid #F2F2F2;
+}
+.liebiao ul li a{
+	display: block;
+	width: 100%;
+	font-size: 0.3rem;
+	color: #000;
+	padding: 0.2rem;
+}
+.liebiao ul li i{
+	font-size: 0.5rem;
+	color: #5BDFFF;
+	margin-right: 0.2rem;
+}
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1.2rem;
+	background: white;
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+	left: 0;
+}
+footer ul{
+	width: 100%;
+	height: 1.2rem;
+}
+footer ul li{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background: white;
+}
+footer ul li a{
+	width: 0.48rem;
+	height: 0.74rem;
+	display: block;
+	background: white;
+	margin: 0 auto;
+	margin-top: 0.16rem;
+	position: relative;
+}
+footer ul li a i{
+	display: block;
+	width: 100%;
+	height: 0.5rem;
+	color: #686765;
+	font-size: 0.5rem;
+	text-align: center;
+	line-height: 0.5rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+footer ul li:last-child i{
+	color: #58FF;
+}
+.footer-text{
+	width: 100%;
+	height: 0.18rem;
+	font-size: 0.18rem;
+	color: #444444;
+	text-align: center;
+	line-height: 0.18rem;
+	bottom: 0;
+	position: absolute;
+}
+.footer-text1{
+	color: #58FF ;
+	width: 100%;
+	height: 0.18rem;
+	font-size: 0.18rem;
+	text-align: center;
+	line-height: 0.18rem;
+	bottom: 0;
+	position: absolute;
+}

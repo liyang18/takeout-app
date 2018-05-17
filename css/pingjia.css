@@ -1,0 +1,393 @@
+@import url('base.css');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 632677 */
+    src: url('http://at.alicdn.com/t/font_632677_tzs0cq7xhrpphkt9.eot');
+    src: url('http://at.alicdn.com/t/font_632677_tzs0cq7xhrpphkt9.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_632677_tzs0cq7xhrpphkt9.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_632677_tzs0cq7xhrpphkt9.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_632677_tzs0cq7xhrpphkt9.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+    font-style: normal;
+}
+body{
+    height: auto;
+    background: white;
+}
+header{
+    width: 100%;
+    overflow: hidden;
+}
+.t-box{
+    width: 100%;
+    height: 1.5rem;
+    background: #D02216;
+    padding:0.26rem 0.24rem;
+    z-index: 9999;
+    position: fixed;
+    /*margin-top: 3rem;*/
+    /*position: relative;*/
+}
+.t-box a{
+    display: block;
+    width: 100%;
+}
+.t-box-l{
+    width: 50%;
+    float: left;
+}
+.t-box-l i{
+    font-size: .5rem;
+    color: white;
+}
+.t-box-r{
+    width: 30%;
+    float: right;
+    /*padding:0.4rem;*/
+    display: flex;
+    justify-content: space-between;;
+}
+.t-box-r i{
+    font-size: 0.5rem;
+    color: white;
+}
+.logo{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1.5rem;
+    margin-left: 2.8rem;
+    position: absolute;
+}
+.logo img{
+    width: 100%;
+}
+.shoucang{
+    width: .7rem;
+    height:.7rem;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 2.5rem;
+}
+.shoucang .ic1{
+    font-size: 0.6rem;
+    color: red;
+    margin-left: 0.05rem;
+
+}
+/*品牌介绍*/
+section{
+    width: 100%;
+    height: auto;
+}
+.pinp-box{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    /*background: pink;*/
+    margin-top: .5rem;
+}
+.pinp-t{
+    width: 100%;
+    height: auto;
+}
+.pinp-t a{
+    display: block;
+    font-size: .4rem;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+.pinp-t .iconfont{
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+}
+.pinp-c{
+    width: 100%;
+    /*height: 1rem;*/
+    padding: 0.1rem 0.1rem;
+    display: flex;
+    /*justify-content: space-between;*/
+}
+.pinp-c-l{
+    height: auto;
+    width: 5rem;
+    margin-right: .5rem;
+}
+.pinp-c-l a{
+    height: 0.5rem;
+}
+.pinp-c-l img{
+    width: 0.79rem;
+}
+.pinp-c-l span{
+    font-size: 0.28rem;
+
+}
+.pinp-c-c{
+    width: 4rem;
+    /*height: 1rem;*/
+    margin-left: -1rem;
+    /*padding: 0.2rem 0.2rem;*/
+}
+.pinp-c-c span{
+    font-size: 0.28rem;
+    color: #333333;
+}
+.pinp-c-r{
+    width: 6rem;
+}
+.pinp-c-r span{
+    font-size: 0.28rem;
+    color: #333333;
+}
+.pinp-b{
+    width: 100%;
+    text-align: center;
+}
+.pinp-b span{
+    font-size: 0.2rem ;
+    color: #D4D4D4;
+    /*padding:0 2.5rem;*/
+}
+.pinp-zx{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.pinp-zx-left{
+    width: 10rem;
+    margin-right: 1rem;
+}
+.pinp-zx-left-l{
+    height: auto;
+
+}
+.pinp-zx-left-l i{
+    font-size: .4rem;
+}
+.pinp-zx-left-l span{
+    font-size: 0.25rem;
+}
+.pinp-zx-right{
+    width: 5rem;
+    margin-top: 0.1rem;
+
+}
+.pinp-zx-right span{
+    font-size: 0.25rem;
+}
+.pinp-zx-right i{
+    font-size: 0.3rem;
+    color: #000000;
+    margin-left: 0.2rem;
+}
+/*列表开始*/
+.liebiao-{
+    width: 100%;
+    /*height: 2rem;*/
+    margin-top:.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding:0 1rem;
+    border-bottom: 0.01rem solid #D4D4D4;
+}
+.liebiao- li{
+    height: 100%;
+}
+.liebiao- li a{
+    display: block;
+    font-size: 0.3rem;
+    color: #000000;
+}
+.xia-hua{
+    width: 1rem;
+    height: 0.05rem;
+    background: #58DFFF;
+    margin-left: -0.2rem;
+    margin-top: 0.24rem;
+}
+.p-box{
+    width: 100%;
+    height: 2.5rem;
+    padding:0.26rem 0.5rem;
+}
+.zonghe-box{
+    width: 100%;
+    height: auto;
+}
+.zonghe-box-left{
+    width: 3rem;
+    height: 100%;
+    float: left;
+    padding-top:0.26rem;
+    border-right: 0.01rem solid #D4D4D4;
+}
+.zonghe-box-left strong{
+    display: block;
+    width: 100%;
+    font-size: 0.5rem;
+    color: orange;
+    text-align: center;
+}
+.zonghe-box-left span{
+    display: block;
+    width: 100%;
+    font-size: 0.3rem;
+    color: #D4D4D4;
+    text-align: center;
+}
+.zonghe-box-left p{
+    display: block;
+    width: 100%;
+    font-size: 0.2rem;
+    color: #D4D4Da;
+    text-align: center;
+}
+.zonghe-box-right{
+    width: 3.5rem;
+    height: 100%;
+    float: right;
+    padding:0.26rem 0.5rem;
+}
+.service{
+    width: 100%;
+}
+.service li{
+    width: 100%;
+    padding-bottom: 0.1rem;
+    font-size: 0.2rem;
+    color: orange;
+}
+.service li span{
+    font-size: 0.3rem;
+    color: #333333;
+    margin-right: 0.1rem;
+}
+.service li img{
+   width: 0.79rem;
+}
+.service li .time{
+    font-size: 0.25rem;
+    color: #D4D4D4;
+}
+.kuang{
+    width: 100%;
+    display: flex;
+    padding: 0 0.24rem 0.26rem;
+    border-bottom: 0.01rem dashed #D4D4D4;
+}
+.all{
+    width: 1.5rem;
+    height: 0.8rem;
+    background: #578fe8;
+    font-size: 0.3rem;
+    color: white;
+    border-radius: 2%;
+    line-height: 0.8rem;
+    text-align: center;
+    margin-right: 0.2rem;
+}
+.manyi{
+    width: 1.5rem;
+    height: 0.8rem;
+    background: #EBF5FF;
+    font-size: 0.3rem;
+    color: #7B8592;
+    border-radius: 2%;
+    line-height: 0.8rem;
+    text-align: center;
+    margin-right: 0.2rem;
+}
+.bumanyi{
+    width: 1.8rem;
+    height: 0.8rem;
+    background: #F5F5F5;
+    font-size: 0.3rem;
+    color: #AAAAAA;
+    border-radius: 2%;
+    line-height: 0.8rem;
+    text-align: center;
+    margin-right: 0.2rem;
+}
+.picture{
+    width: 1.5rem;
+    height: 0.8rem;
+    background: #EBF5FF;
+    font-size: 0.3rem;
+    color: #6D7885;
+    border-radius: 2%;
+    line-height: 0.8rem;
+    text-align: center;
+}
+.zhikan{
+    width: 100%;
+    height: 1rem;
+    padding:0.1rem 0.24rem;
+    font-size: 0.3rem;
+    color: #666666;
+    line-height: 0.6rem;
+    border-bottom:0.2rem solid #D4D4D4;
+}
+.neirong{
+    width: 100%;
+    height: 4rem;
+    position: relative;
+    padding:0.26rem 0.24rem;
+
+}
+.neir-left{
+    width: 0.79rem;
+    height: auto;
+    float: left;
+}
+.neir-left img{
+    width: 0.79rem;
+}
+.neir-right{
+    width: 6rem;
+    height: auto;
+    float: right;
+}
+.neir-right p{
+    font-size: 0.3rem;
+    color: #000000;
+    margin-top: 0.2rem;
+}
+.neir-right .name{
+    width: 100%;
+    font-size: 0.2rem;
+    color: #D4D4D4;
+    display: flex;
+    justify-content: space-between;
+}
+.name span{
+    font-size: 0.2rem;
+    color: #000000;
+}
+.pin img{
+    width: 0.8rem;
+    margin-right: 0.2rem;
+}
+.pin{
+    font-size: 0.2rem;
+    color: #FF6000;
+}
+.neir-right .pinlun{
+    width: 2.5rem;
+    margin-top: 0.26rem;
+}
+.xiahua{
+    width: 7rem;
+    height: 0.02rem;
+    background: #D4D4D4;
+    margin: 0 auto;
+    margin-top: 1rem;
+}

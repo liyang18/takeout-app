@@ -1,0 +1,195 @@
+@import "base.css";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 632677 */
+    src: url('http://at.alicdn.com/t/font_632677_xgm52blr7g1a714i.eot');
+    src: url('http://at.alicdn.com/t/font_632677_xgm52blr7g1a714i.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_632677_xgm52blr7g1a714i.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_632677_xgm52blr7g1a714i.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_632677_xgm52blr7g1a714i.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+    font-style: normal;
+}
+body{
+    /*height: 10rem;*/
+    background: #f5f5f5;
+}
+.t-top{
+    width: 100%;
+    height: 1.5rem;
+    background: #5BFF;
+    z-index: 9999;
+    padding: 0.6rem 0.24rem 0 0.24rem;
+    margin-bottom: 0.5rem;
+}
+.t-left{
+    width: 2.5rem;
+    height: 1rem;
+    /*background: white;*/
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+.t-left a{
+    display: block;
+}
+.t-left .iconfont{
+    font-size: 0.53rem;
+    color: white;
+}
+.t-left span{
+    font-size: 0.4rem;
+    color: white;
+}
+/*.t-left .iconfont{*/
+    /*font-size: 0.53rem;*/
+    /*color: #fff;*/
+/*}*/
+.t-right{
+    width: 4rem;
+    height: 1rem;
+    float: right;
+}
+.t-right a{
+    display: block;
+    font-size: 0.4rem;
+    color: #fff;
+    margin-left: 3.2rem;
+    /*margin-bottom: 1rem;*/
+}
+/*头部结束*/
+input:focus{
+    outline: none;
+    position: relative;
+}
+.code-box{
+    width: 2.5rem;
+    height: 0.8rem;
+    background: #D4D4D4;
+    margin-top: -1.9rem;
+    margin-left: 5rem;
+    position: absolute;
+    font-size: 0.4rem;
+    color: #FDFEFE;
+    text-align: center;
+    line-height: 0.8rem;
+    border-radius: 2%;
+}
+.notice{
+    width: 100%;
+    padding:0.26rem 0.24rem;
+}
+.notice a{
+    font-size: 0.3rem;
+    color: #D4D4D4;
+}
+.notice span{
+    font-size: 0.3rem;
+    color: #58ff;
+}
+.tijiao{
+    width: 100%;
+    padding:0.26rem 0.24rem;
+}
+
+/*登录结束*/
+.disanf{
+    width: 100%;
+    height: 4rem;
+    padding:3rem 0 0;
+}
+.disanf .zi{
+    width: 100%;
+    height: 1rem;
+    font-size: 0.3rem;
+    color: #C1C1C1;
+    text-align: center;
+    line-height: 1rem;
+}
+.list{
+    width: 100%;
+    padding:0.26rem 0.24rem;
+}
+.list li{
+    width: 25%;
+    height: 2rem;
+    background: pink;
+}
+.list li .weixin{
+    width: 100%;
+    font-size: 0.3rem;
+}
+.list li span{
+    width: 100%;
+    font-size: 0.3rem;
+}
+/* 底部开始 */
+footer{
+    width: 100%;
+    /*height: 3rem;*/
+    /*background: white;*/
+}
+footer ul{
+    width: 100%;
+    height: 0.98rem;
+}
+footer ul li{
+    float: left;
+    width: 25%;
+    height: 100%;
+    /*background: white;*/
+}
+footer ul li a{
+    width: 1.48rem;
+    height: 1.74rem;
+    display: block;
+    /*background: white;*/
+    margin: 0 auto;
+    margin-top: 0.16rem;
+    position: relative;
+}
+footer ul li a i{
+    display: block;
+    width: 100%;
+    height: 1.4rem;
+    /*color: #686765;*/
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.4rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.footer-text{
+    width: 100%;
+    height: 0.18rem;
+    font-size: 0.18rem;
+    color: #444444;
+    text-align: center;
+    line-height: 0.18rem;
+    bottom: 0.06rem;
+    position: absolute;
+}
+.ic2{
+    color: #0AAA40;
+}
+.ic1{
+    color: #12B7F5;
+}
+.ic3{
+    color: #E6162D;
+}
+.ic4{
+    color: #FD4702;
+}
+/*.footer-text1{*/
+    /*color: #f68d77;*/
+/*}*/

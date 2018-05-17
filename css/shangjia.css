@@ -1,0 +1,364 @@
+/*
+* @Author: Administrator
+* @Date:   2017-12-11 01:09:02
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-12-12 19:30:17
+*/
+@import url('base.css');
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+body{
+	background:#efefef;
+	height: auto;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 501408 */
+  src: url('http://at.alicdn.com/t/font_501408_45g6yf8q4vzbmx6r.eot');
+  src: url('http://at.alicdn.com/t/font_501408_45g6yf8q4vzbmx6r.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_501408_45g6yf8q4vzbmx6r.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_501408_45g6yf8q4vzbmx6r.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_501408_45g6yf8q4vzbmx6r.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+}
+header{
+	width: 7.5rem;
+	height: 2rem;
+	background: #58FF;
+	overflow: hidden;
+}
+.header-top{
+	width: 100%;
+	height: 0.36rem;
+	margin-top: 0.24rem;
+	position: relative;
+}
+.header-top a{
+	display: block;
+	width: 0.36rem;
+	height: 0.36rem;
+	margin-left: 0.3rem;
+	float: left;
+}
+.header-top a i{
+	display: block;
+	font-size: 0.36rem;
+	color: white;
+	text-align: center;
+	line-height: 0.36rem;
+}
+.header-top a:nth-child(2){
+	margin-left: 6.2rem;
+}
+
+.header-bottom{
+	width: 100%;
+	height: 1.2rem;
+	margin-top: 0.2rem;
+	position: relative;
+}
+.header-bottom a{
+	width: 1rem;
+	height: 1rem;
+	display: block;
+	margin-left: 0.3rem;
+	border-radius: 50%;
+	float: left;
+}
+.header-bottom a img{
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+}
+.header-bottom a:nth-child(2){
+	width: 3.8rem;
+	height: 1.2rem;
+	display: block;
+	float: left;
+	margin-left: 0.3rem;
+	border-radius: 0%;
+}
+.header-bottom a span{
+	display: block;
+	width: 100%;
+	height: 0.28rem;
+	font-size: 0.35rem;
+	color: white;
+	line-height: 0.28rem;
+}
+.bottom-text{
+	width: 100%;
+	height: 0.28rem;
+	margin-top: 0.3rem;
+
+}
+.bottom-text em{
+	display: block;
+	float: left;
+	width: 1.2rem;
+	height: 0.28rem;
+	font-size: 0.2rem;
+	color: white;
+	line-height: 0.28rem;
+}
+.bottom-text em:first-child{
+	border-right: 0.01rem solid white;
+}
+.bottom-text em:nth-child(2){
+	border-right: 0.01rem solid white;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+	width: 1.4rem;
+}
+.bottom-text em:nth-child(3){
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+}
+.bottom-right{
+	width: 0.36rem;
+	height: 0.36rem;
+	position: absolute;
+	right: 0.3rem;
+	bottom: 0.2rem;
+
+}
+.bottom-right i{
+	width: 0.36rem;
+	height: 0.36rem;
+	display: block;
+	color: white;
+	font-size: 0.36rem;
+	text-align: center;
+	line-height: 0.36rem;
+}
+ul{
+	width: 100%;
+	height: 0.6rem;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	background: white;
+}
+li{
+	float: left;
+	width: 33.33%;
+	height: 100%;
+}
+ul li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 0.3rem;
+	color: #323232;
+	text-align: center;
+	line-height: 0.6rem;
+	background: white;
+}
+.text1{
+	color: #f28969;
+}
+/* 块一开始 */
+.kuaiyi{
+	width: 100%;
+	height: 3.98rem;
+	background: white;
+	margin-top: 0.22rem;
+
+}
+.kuaiyi-top{
+	width: 7.19rem;
+	height: 1.16rem;
+	background: white;
+	float: right;
+	border-bottom: 0.01rem solid #ebebeb;
+}
+.kuaiyi-middle{
+	width: 7.19rem;
+	height: 1.82rem;
+	background: white;
+	float: right;
+	border-bottom: 0.01rem solid #ebebeb;
+}
+.kuaiyi-bottom{
+	width: 7.19rem;
+	height: 1rem;
+	background: white;
+	float: right;
+}
+.kuaiyi-topleft{
+	width: 5.7rem;
+	height: 0.32rem;
+	background: white;
+	float: left;
+	margin-top: 0.41rem;
+	border-right: 0.01rem solid #e2e2e2;
+
+}
+.kuaiyi-topleft em{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem;
+	font-size: 0.32rem;
+	color: #989896;
+	line-height: 0.32rem;
+	float: left;
+
+}
+.kuaiyi-lefttext{
+	width: 5.3rem;
+	height: 0.32rem;
+	background: white;
+	padding-left: 0.23rem;
+	font-size: 0.25rem;
+	color: #212121;
+	line-height: 0.32rem;
+	float: right;
+}
+.kuaiyi-topright{
+	width: 1.49rem;
+	height: 0.4rem;
+	float: right;
+	background: white;
+	margin-top: 0.37rem;
+	padding-left: 0.4rem;
+	
+}
+.kuaiyi-topright em{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	color: #555555;
+
+}
+.middle-box{
+	width: 7.19rem;
+	height: 1.42rem;
+	margin-top: 0.2rem;
+}
+.middle-img{
+	width: 2.18rem;
+	height: 100%;
+	padding-right: 0.3rem;
+	float: left;
+}
+.middle-img img{
+	width: 1.88rem;
+	height: 1.42rem;
+}
+.bottom-box{
+	width: 100%;
+	height: 0.5rem;
+	margin-top: 0.3rem;
+}
+.bottom-left{
+	width: 4.38rem;
+	height: 0.5rem;
+	float: left;
+}
+.bottom-left i{
+	display: block;
+	width: 0.36rem;
+	height: 0.36rem;
+	margin-top: 0.07rem;
+	font-size: 0.36rem;
+	color: #919191;
+	text-align: center;
+	line-height: 0.36rem;
+	float: left;
+
+}
+.kuaiyibottom-text{
+	width: 3.5rem;
+	height: 100%;
+	font-size: 0.26rem;
+	color: #333333;
+	line-height: 0.5rem;
+	float: left;
+	margin-left: 0.3rem;
+}
+.bottom-box em{
+	display: block;
+	float: right; 
+	width: 0.5rem;
+	height: 0.5rem;
+	font-size: 0.36rem;
+	color: #d3d3d3;
+	text-align: center;
+	line-height: 0.5rem;
+	margin-right: 0.3rem;
+}
+ /*  块二开始*/
+.kuaier{
+	width: 100%;
+	height: 2rem;
+	background: white;
+	margin-top: 0.22rem;
+	padding-left: 0.31rem;
+}
+.kuaier-top{
+	width: 7.19rem;
+	height: 1rem;
+	border-bottom: 0.01rem solid #e5e5e5;
+	overflow: hidden;
+}
+.kuaier-bottom{
+	width: 7.19rem;
+	height: 1rem;
+	overflow: hidden;
+}
+.kuaier-text{
+	width: 5rem;
+	height: 0.31rem;
+	margin-top: 0.36rem;
+
+}
+.kuaier-text i{
+	display: block;
+	width: 0.31rem;
+	height: 0.31rem;
+	font-size: 0.31rem;
+	color: #909090;
+	text-align: center;
+	line-height: 0.31rem;
+	float: left;
+}
+.kuaier-t2{
+	float: left;
+	width: 4.5rem;
+	height: 0.31rem;
+	padding-left: 0.25rem;
+	font-size: 0.25rem;
+	line-height: 0.31rem;
+}
+/*  块二结束*/
+
+/* 快三开始 */
+.kuaisan{
+	height: 4.48rem;
+	margin-bottom: 1rem;
+
+}
+.kuaier-bottom1{
+	height: 2.4rem;
+}
+.img-box{
+	width: 0.31rem;
+	height: 0.31rem;
+	float: left;
+}
+.img-box img{
+	width: 100%;
+	height: 100%;
+}
+/* 快三结束 */

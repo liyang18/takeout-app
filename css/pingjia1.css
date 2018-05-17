@@ -1,0 +1,517 @@
+/*
+* @Author: Administrator
+* @Date:   2017-12-10 20:37:30
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-12-11 01:03:11
+*/
+@import url('base.css');
+body{
+	background:#efefef;
+	height: auto;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 501408 */
+  src: url('http://at.alicdn.com/t/font_501408_c3xf42344zwzsemi.eot');
+  src: url('http://at.alicdn.com/t/font_501408_c3xf42344zwzsemi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_501408_c3xf42344zwzsemi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_501408_c3xf42344zwzsemi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_501408_c3xf42344zwzsemi.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+header{
+	width: 7.5rem;
+	height: 2rem;
+	background: #f28969;
+	overflow: hidden;
+}
+.header-top{
+	width: 100%;
+	height: 0.36rem;
+	margin-top: 0.24rem;
+	position: relative;
+}
+.header-top a{
+	display: block;
+	width: 0.36rem;
+	height: 0.36rem;
+	margin-left: 0.3rem;
+	float: left;
+}
+.header-top a i{
+	display: block;
+	font-size: 0.36rem;
+	color: white;
+	text-align: center;
+	line-height: 0.36rem;
+}
+.header-top a:nth-child(2){
+	margin-left: 6.2rem;
+}
+
+.header-bottom{
+	width: 100%;
+	height: 1.2rem;
+	margin-top: 0.2rem;
+	position: relative;
+}
+.header-bottom a{
+	width: 1rem;
+	height: 1rem;
+	display: block;
+	margin-left: 0.3rem;
+	border-radius: 50%;
+	float: left;
+}
+.header-bottom a img{
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+}
+.header-bottom a:nth-child(2){
+	width: 3.8rem;
+	height: 1.2rem;
+	display: block;
+	float: left;
+	margin-left: 0.3rem;
+	border-radius: 0%;
+}
+.header-bottom a i{
+	display: block;
+	width: 100%;
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: white;
+	line-height: 0.28rem;
+}
+.bottom-text{
+	width: 100%;
+	height: 0.28rem;
+	margin-top: 0.3rem;
+
+}
+.bottom-text em{
+	display: block;
+	float: left;
+	width: 1.2rem;
+	height: 0.28rem;
+	font-size: 0.2rem;
+	color: white;
+	line-height: 0.28rem;
+}
+.bottom-text em:first-child{
+	border-right: 0.01rem solid white;
+}
+.bottom-text em:nth-child(2){
+	border-right: 0.01rem solid white;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+	width: 1.4rem;
+}
+.bottom-text em:nth-child(3){
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+}
+.bottom-right{
+	width: 0.36rem;
+	height: 0.36rem;
+	position: absolute;
+	right: 0.3rem;
+	bottom: 0.2rem;
+
+}
+.bottom-right i{
+	width: 0.36rem;
+	height: 0.36rem;
+	display: block;
+	color: white;
+	font-size: 0.36rem;
+	text-align: center;
+	line-height: 0.36rem;
+}
+ul{
+	width: 100%;
+	height: 0.6rem;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	background: white;
+}
+li{
+	float: left;
+	width: 33.33%;
+	height: 100%;
+}
+ul li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 0.3rem;
+	color: #323232;
+	text-align: center;
+	line-height: 0.6rem;
+	background: white;
+}
+.text1{
+	color: #f28969;
+}
+.pingjia{
+	width: 100%;
+	height: 1.68rem;
+	margin-top: 0.23rem;
+	border-top: 0.01rem solid #d7d7d7;
+	border-bottom: 0.01rem solid #d7d7d7;
+	background: white;
+
+}
+.pingjia-body{
+	width: 100%;
+	height: 0.94rem;
+	background: white;
+	margin-top: 0.36rem;
+
+}
+.pingjia-bodyleft{
+	float: left;
+	width: 5.34rem;
+	height: 100%;
+	border-right: 0.01rem solid #d5d5d5;
+	background: white;
+	padding-left: 0.6rem;
+
+}
+.bodyleft{
+	float: left;
+	width: 0.97rem;
+	height: 100%;
+	background: white;
+}
+.bodyleft-top{
+	width: 0.97rem;
+	height: 0.51rem;
+	background: white;
+	font-size: 0.48rem;
+	color: #ffd05a;
+	line-height: 0.51rem;
+	text-align: center;
+}
+.bodyleft-bottom{
+	width: 0.97rem;
+	height: 0.23rem;
+	background: white;
+	font-size: 0.23rem;
+	color: #656565;
+	line-height: 0.23rem;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.bodyright{
+	float: right;
+	width: 3.75rem;
+	height: 100%;
+	background: white;
+	padding-left: 0.6rem;
+}
+.bodyright-top{
+	width: 3.15rem;
+	height: 50%;
+	background: white;
+}
+.bodyright-top1{
+	width: 0.7rem;
+	height: 0.47rem;
+	font-size: 0.24rem;
+	color: #535353;
+	line-height: 0.47rem;
+	background: white;
+	float: left;
+}
+.bodyright-top2{
+	width: 1.2rem;
+	height: 0.47rem;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	float: left;
+}
+.bodyright-top2 li{
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+.bodyright-top2 li em{
+	display: block;
+	width: 0.19rem;
+	height: 0.19rem;
+	font-size: 0.19rem;
+	color: #fdd25f;
+	text-align: center;
+	line-height: 0.19rem;
+	margin-top: 0.14rem;
+}
+.bodyright-top3{
+	width: 0.64rem;
+	height: 0.47rem;
+	font-size: 0.22rem;
+	color: #f2ab07;
+	line-height: 0.47rem;
+	background: white;
+	float: left;
+	padding-left: 0.25rem;
+}
+.peisong-body{
+	float: left;
+	width: 1.57rem;
+	height: 100%;
+	background: white;
+	padding-left: 0.6rem;
+}
+.peisong-bodytop{
+    width: 0.97rem;
+	height: 0.51rem;
+	background: white;
+	font-size: 0.36rem;
+	color: #999999;
+	line-height: 0.51rem;
+	text-align: center;
+}
+.peisong-bodybottom{
+	width: 0.97rem;
+	height: 0.23rem;
+	background: white;
+	font-size: 0.23rem;
+	color: #656565;
+	line-height: 0.23rem;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+
+/* 点菜下 块二 开始 */
+.dazong{
+	width: 100%;
+	height: 0.94rem;
+	margin-top: 0.23rem;
+	border-top: 0.01rem solid #d7d7d7;
+	border-bottom: 0.01rem solid #d7d7d7;
+	background: white;
+
+}
+.dazong-left{
+	width: 2.4rem;
+	height: 0.27rem;
+	background: white;
+	margin-top: 0.32rem;
+	padding-left: 0.33rem;
+	font-size: 0.27rem;
+	line-height: 0.27rem;
+	color: #747474;
+	float: left;
+}
+.dazong-right{
+	float: right;
+	width: 2.09rem;
+	height: 0.32rem;
+	background: white;
+	margin-top: 0.3rem;
+}
+.dazong-text1{
+	float: left;
+	width: 1.5rem;
+	height: 100%;
+	font-size: 0.23rem;
+	color: #959595;
+	line-height: 0.32rem;
+}
+.dazong-right em{
+	display: block;
+	float: left;
+	width: 0.32rem;
+	height: 0.32rem;
+	font-size: 0.32rem;
+	text-align: center;
+	line-height: 0.32rem;
+	color: #d9d9d9;
+
+}
+/* 点菜下 块二 结束 */
+
+/* 点菜下 块三 开始 */
+.kuang{
+	width: 100%;
+	height: 3.4rem;
+	background: white;
+	margin-top: 0.23rem;
+	border-top: 0.01rem solid #d7d7d7;
+	border-bottom: 0.01rem solid #d7d7d7;
+}
+.kuang1{
+	width: 100%;
+	height: 0.6rem;
+	background: white;
+	margin-top: 0.2rem;
+}
+.kuang1-box{
+	width: 1.97rem;
+	height: 100%;
+	padding-left: 0.3rem;
+	background: white;
+	float: left;
+}
+.box-box{
+	width: 1.67rem;
+	height: 100%;
+	border: 0.01rem solid #bdbdbd;
+	border-radius: 0.05rem;
+	font-size: 0.22rem;
+	color: #6e6e6e;
+	text-align: center;
+	line-height: 0.6rem;
+	float: left;
+}
+.box-box1{
+	border: 0.01rem solid #d4a94a;
+	color: #fda900;
+}
+/* 点菜下 块三 结束 */
+
+/* 点菜下 块四 开始 */
+.pinglun{
+	width: 100%;
+	height: 4rem;
+	border-bottom: 0.01rem solid #ebebeb;
+	background: white;
+	overflow: hidden;
+	
+
+}
+.pinglun-top{
+	width: 100%;
+	height: 0.81rem;
+	background: white;
+	margin-top: 0.35rem;
+}
+.pinglun-topleft{
+	width: 4.19rem;
+	height: 0.81rem;
+	float: left;
+	background: white;
+}
+.pinglun-topleft1{
+	width: 1.14rem;
+	height: 100%;
+	float: left;
+	padding-left: 0.32rem;
+	background: white;
+}
+.left1-img{
+	width: 0.82rem;
+	height: 100%;
+	background: white;
+	border-radius: 50%;
+}
+.left1-img img{
+	width: 0.82rem;
+	height: 100%;
+	border-radius: 50%;
+
+}
+.pinglun-topleft2{
+	width: 3.05rem;
+	height: 100%;
+	background: white;
+	float: right;
+	padding-left: 0.23rem;
+}
+.topleft2-text{
+	width: 100%;
+	height: 0.35rem;
+	background: white;
+	font-size: 0.32rem;
+	color: #282828;
+	line-height: 0.35rem;
+}
+.topleft2-text1{
+	width: 100%;
+	height: 0.24rem;
+	background: white;
+	margin-top: 0.22rem;
+}
+.topleft2-text2{
+	width: 1.19rem;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	float: left;
+
+}
+.topleft2-text2 li em{
+	display: block;
+	width: 20%;
+	height: 100%;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.24rem;
+	color: #fcd162;
+
+}
+.topleft2-text3{
+	float: right;
+	width: 1.38rem;
+	height: 100%;
+	background: white;
+	font-size: 0.24rem;
+	color: #8f8f8f;
+	line-height: 0.24rem;
+}
+.pinglun-topright{
+	float: right;
+	width: 1.54rem;
+	height: 0.45rem;
+	font-size: 0.19rem;
+	color: #595959;
+	line-height: 0.45rem;
+}
+.pinglun-middle{
+	width: 100%;
+	height: 2rem;
+	background: white;
+	margin-top: 0.48rem;
+	padding-left: 1.37rem;
+}
+.pinglun-middle p{
+	width: 5.81rem;
+	height: 0.74rem;
+	background: white;
+	font-size: 0.27rem;
+	color: #222222;
+}
+.middle-text{
+	width: 100%;
+	height: 0.24rem;
+	background: white;
+	margin-top: 0.32rem;
+}
+.middle-text em{
+	display: block;
+	width: 0.24rem;
+	height: 0.24rem;
+	font-size: 0.24rem;
+	color: #a5a5a5;
+	line-height: 0.24rem;
+	float: left;
+}
+.middle-text1{
+	float: left;
+	width: 5.55rem;
+	height: 100%;
+	padding-left: 0.18rem;
+	font-size: 0.24rem;
+	color: #596583;
+	line-height: 0.24rem;
+}
+/* 点菜下 块四 结束 */
+
+
